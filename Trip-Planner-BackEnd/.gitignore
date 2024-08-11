@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env.local
+
+
+#Shroov
+
+#mongodb+srv://<username>:<password>@guvi.r3wyg8w.mongodb.net/
+#// bearrer token
+#eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmIzODY1MTRiNGQ0YTE3YjNlZGUzZGQiLCJuYW1lIjoia2FydGhpIiwiaWF0IjoxNzIzMDQxMzYxLCJleHAiOjE3MjMwNDg1NjF9.hHelk26J5j5geRpMxn5UN2nBCJkL9iFw3EbFcMCtOJc

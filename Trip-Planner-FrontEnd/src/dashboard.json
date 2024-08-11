@@ -1,0 +1,13 @@
+[{
+    "name":"User",
+    "icon":"AssignmentIndIcon "
+},
+{
+    "name":"Travel Plan",
+    "icon":"TravelExploreIcon "
+},
+{
+    "name":"Todo",
+    "icon":"PlaylistAddCheckIcon "
+}
+]
