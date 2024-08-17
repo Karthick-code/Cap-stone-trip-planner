@@ -22,11 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-.env.local
+.env
 
 
-#Shroov
-
-#mongodb+srv://<username>:<password>@guvi.r3wyg8w.mongodb.net/
-#// bearrer token
-#eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmIzODY1MTRiNGQ0YTE3YjNlZGUzZGQiLCJuYW1lIjoia2FydGhpIiwiaWF0IjoxNzIzMDQxMzYxLCJleHAiOjE3MjMwNDg1NjF9.hHelk26J5j5geRpMxn5UN2nBCJkL9iFw3EbFcMCtOJc

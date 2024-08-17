@@ -33,6 +33,19 @@ router.post("/", async (req, res) => {
   res.send(token);
 });
 
+router.put("/:id", auth, async (req, res) => {
+  const { name, email,expense } = req.body;
+  const user = await User.findByIdAndUpdate(req.params.id,{
+    name,
+    email,
+    expense
+  })
+  if (!user) {
+    return res.status(404).send({ message: "User not found" });
+}
+})
+
+
 module.exports = router;
 
 

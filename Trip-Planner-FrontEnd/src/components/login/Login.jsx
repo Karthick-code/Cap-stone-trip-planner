@@ -18,12 +18,14 @@ const LoginSchema = Yup.object().shape({
 function Login() {
   const { login } = useContext(AuthContext);
   const navigate = useNavigate();
+  const [serverError, setServerError] = React.useState("");
   
   const handleSubmit = async (values, { setSubmitting }) => {
     try {
       await login(values.email, values.password);
       navigate("/");
     } catch (err) {
+      setServerError("User credentials are wrong");
       console.log(err);
     } finally {
       setSubmitting(false);
@@ -66,6 +68,11 @@ function Login() {
               helperText={<ErrorMessage name="password" />}
               error={!!ErrorMessage.password}
             />
+            {serverError && (
+              <Typography color="error" variant="body2" style={{ marginTop: '16px' }}>
+                {serverError}
+              </Typography>
+            )}
             <Button 
               type="submit" 
               variant="contained" 

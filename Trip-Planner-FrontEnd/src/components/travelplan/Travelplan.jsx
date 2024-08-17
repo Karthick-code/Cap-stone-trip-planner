@@ -6,6 +6,7 @@ import { Button } from '@mui/material';
 import  { useNavigate } from 'react-router-dom';
 // import {Link} from '@mui/material';
 import Addtravel from './Addtravel';
+import Travelcard from './Travelcard';
 
 function Travelplan() {
   const navigate=useNavigate()
@@ -13,39 +14,33 @@ function Travelplan() {
   const { user } = useContext(AuthContext);
   const [plans,setPlans]=useState([]);
   useEffect(()=>{
-    http.get("/travelplan").then((res)=>{
+    http.get(`/travelplan/${user._id}`).then((res)=>{
       setPlans(res.data)
     })
   },[])
   return (
     <>
+    <div className='row' style={{display:"flex"}}>
     {user?((plans.length!==0)?(
       plans.map((plan)=>{
         return(
           <div>
-            <h1>{plan.title}</h1>
-            <p>{plan.description}</p>
-            <p>{plan.startDate}</p>
-            <p>{plan.endDate}</p>
-            <p>{plan.destination}</p>
-            <p>{plan.budget}</p>
-            <p>{plan.activities}</p>
-            <p>{plan.accommodation}</p>
-            <p>{plan.transportation}</p>
-            <p>{plan.notes}</p>
-            <Button onClick={()=>navigate("/addtravel")
-            }>Add new Travel</Button>
+            <Travelcard plan={plan}/>            
           </div>
-          
         )
       })):(
         <div>
           <h4>No plans found</h4>
-          <Button onClick={()=>navigate("/addtravel")}>Add new Travel</Button>
+          
         </div>
       )
     ):(navigate("/login"))
-  }</>
+    
+  }
+  </div>
+  <Button variant='contained' onClick={()=>navigate("/addtravel")}>Add new Travel</Button>
+  
+  </>
     
   )
 }

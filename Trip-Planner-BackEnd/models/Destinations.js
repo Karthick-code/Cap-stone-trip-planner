@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const DestinationSchema = new mongoose.Schema({
-  name: {
+  title: {
     type: String,
     required: true,
   },
@@ -8,13 +8,20 @@ const DestinationSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  image: {
-    type: String,
+  images: {
+    type: Array,
     required: true,
   },
   location: {
     type: String,
     required: true,
   },
+  reference:{
+    type:String
+  },
+  rating:{
+    type:String,
+    required:true,
+  }
 });
 module.exports = mongoose.model("Destination", DestinationSchema);

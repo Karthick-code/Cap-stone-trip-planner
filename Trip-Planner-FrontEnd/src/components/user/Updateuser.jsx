@@ -3,23 +3,21 @@ import AuthContext from '../../context/AuthContext'
 import { useContext,useState } from 'react'
 import { Card, Divider } from '@mui/material';
 import { TextField ,Button} from '@mui/material';
-;
-// import {http} from "../../../utils"
+import http from "../../../utils/http";
 
 function Updateuser() {
   const {user} = useContext(AuthContext);
   const [name,setName]=useState(user.name);
   const [email,setEmail]=useState(user.email);
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = () => {
     const data = {
-      name:e.target.name.value,
-      email:e.target.email.value,
+      name:name,
+      email:email,
     };
     console.log(data);
-    // http.put(`/users/${user._id}`, data).then((res) => {
-    //   console.log(res.data);
-    // });
+    http.put(`/user/${user._id}`, data).then((res) => {
+      console.log(res.data);
+    });
     
   }
   return (

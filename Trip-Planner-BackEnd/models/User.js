@@ -15,6 +15,9 @@ const userSchema = new mongoose.Schema({
     required: true,
     unique: true,
   },
+  expense:{
+    type:Number
+  }
 });
 userSchema.pre('save', async function (next){
   if (!this.isModified('password')) {

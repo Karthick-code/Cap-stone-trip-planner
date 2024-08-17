@@ -9,5 +9,18 @@
 {
     "name":"Todo",
     "icon":"PlaylistAddCheckIcon "
+},
+{
+    "name":"Add Destination",
+    "icon":"AddIcon"
+},
+{
+    "name":"Travel Booking",
+    "icon":"ModeOfTravelIcon"
+},
+{
+    "name":"Accomodation",
+    "icon":"HotelIcon "
 }
+
 ]

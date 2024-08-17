@@ -1,0 +1,560 @@
+[
+    {
+      "RouteID": 1,
+      "RouteName": "Delhi to Agra",
+      "StartLocation": "Delhi",
+      "EndLocation": "Agra",
+      "StopLocations": [
+        "Delhi Stop1",
+        "Delhi Stop2",
+        "Mathura Stop1",
+        "Agra Stop1"
+      ],
+      "Schedule": "06:00 AM - 08:00 PM",
+      "BusOperator": "UP Roadways"
+    },
+    {
+      "RouteID": 2,
+      "RouteName": "Mumbai to Pune",
+      "StartLocation": "Mumbai",
+      "EndLocation": "Pune",
+      "StopLocations": [
+        "Mumbai Stop1",
+        "Mumbai Stop2",
+        "Lonavala Stop1",
+        "Pune Stop1"
+      ],
+      "Schedule": "05:30 AM - 09:00 PM",
+      "BusOperator": "MSRTC"
+    },
+    {
+      "RouteID": 3,
+      "RouteName": "Bangalore to Mysore",
+      "StartLocation": "Bangalore",
+      "EndLocation": "Mysore",
+      "StopLocations": [
+        "Bangalore Stop1",
+        "Bangalore Stop2",
+        "Mandya Stop1",
+        "Mysore Stop1"
+      ],
+      "Schedule": "07:00 AM - 10:00 PM",
+      "BusOperator": "KSRTC"
+    },
+    {
+      "RouteID": 4,
+      "RouteName": "Kolkata to Durgapur",
+      "StartLocation": "Kolkata",
+      "EndLocation": "Durgapur",
+      "StopLocations": [
+        "Kolkata Stop1",
+        "Howrah Stop1",
+        "Bardhaman Stop1",
+        "Durgapur Stop1"
+      ],
+      "Schedule": "06:30 AM - 07:30 PM",
+      "BusOperator": "WBSTC"
+    },
+    {
+      "RouteID": 5,
+      "RouteName": "Chennai to Coimbatore",
+      "StartLocation": "Chennai",
+      "EndLocation": "Coimbatore",
+      "StopLocations": [
+        "Chennai Stop1",
+        "Chennai Stop2",
+        "Salem Stop1",
+        "Coimbatore Stop1"
+      ],
+      "Schedule": "08:00 AM - 09:00 PM",
+      "BusOperator": "TNSTC"
+    },
+    {
+      "RouteID": 6,
+      "RouteName": "Hyderabad to Vijayawada",
+      "StartLocation": "Hyderabad",
+      "EndLocation": "Vijayawada",
+      "StopLocations": [
+        "Hyderabad Stop1",
+        "Hyderabad Stop2",
+        "Khammam Stop1",
+        "Vijayawada Stop1"
+      ],
+      "Schedule": "05:00 AM - 08:00 PM",
+      "BusOperator": "APTS"
+    },
+    {
+      "RouteID": 7,
+      "RouteName": "Jaipur to Udaipur",
+      "StartLocation": "Jaipur",
+      "EndLocation": "Udaipur",
+      "StopLocations": [
+        "Jaipur Stop1",
+        "Ajmer Stop1",
+        "Rajsamand Stop1",
+        "Udaipur Stop1"
+      ],
+      "Schedule": "06:00 AM - 08:30 PM",
+      "BusOperator": "RSRTC"
+    },
+    {
+      "RouteID": 8,
+      "RouteName": "Ahmedabad to Surat",
+      "StartLocation": "Ahmedabad",
+      "EndLocation": "Surat",
+      "StopLocations": [
+        "Ahmedabad Stop1",
+        "Vadodara Stop1",
+        "Ankleshwar Stop1",
+        "Surat Stop1"
+      ],
+      "Schedule": "07:00 AM - 09:00 PM",
+      "BusOperator": "GSRTC"
+    },
+    {
+      "RouteID": 9,
+      "RouteName": "Chandigarh to Shimla",
+      "StartLocation": "Chandigarh",
+      "EndLocation": "Shimla",
+      "StopLocations": [
+        "Chandigarh Stop1",
+        "Kalka Stop1",
+        "Solan Stop1",
+        "Shimla Stop1"
+      ],
+      "Schedule": "06:30 AM - 07:00 PM",
+      "BusOperator": "HRTC"
+    },
+    {
+      "RouteID": 10,
+      "RouteName": "Thiruvananthapuram to Kochi",
+      "StartLocation": "Thiruvananthapuram",
+      "EndLocation": "Kochi",
+      "StopLocations": [
+        "Thiruvananthapuram Stop1",
+        "Kollam Stop1",
+        "Alappuzha Stop1",
+        "Kochi Stop1"
+      ],
+      "Schedule": "08:00 AM - 09:00 PM",
+      "BusOperator": "KSRTC"
+    },
+    {
+        "RouteID": 11,
+        "RouteName": "Pune to Nashik",
+        "StartLocation": "Pune",
+        "EndLocation": "Nashik",
+        "StopLocations": [
+          "Pune Stop1",
+          "Pune Stop2",
+          "Kalyan Stop1",
+          "Nashik Stop1"
+        ],
+        "Schedule": "06:00 AM - 08:00 PM",
+        "BusOperator": "MSRTC"
+      },
+      {
+        "RouteID": 12,
+        "RouteName": "Delhi to Jaipur",
+        "StartLocation": "Delhi",
+        "EndLocation": "Jaipur",
+        "StopLocations": [
+          "Delhi Stop1",
+          "Gurgaon Stop1",
+          "Aligarh Stop1",
+          "Jaipur Stop1"
+        ],
+        "Schedule": "07:00 AM - 09:00 PM",
+        "BusOperator": "RSRTC"
+      },
+      {
+        "RouteID": 13,
+        "RouteName": "Kolkata to Siliguri",
+        "StartLocation": "Kolkata",
+        "EndLocation": "Siliguri",
+        "StopLocations": [
+          "Kolkata Stop1",
+          "Nadia Stop1",
+          "Murarai Stop1",
+          "Siliguri Stop1"
+        ],
+        "Schedule": "05:30 AM - 10:00 PM",
+        "BusOperator": "WBSTC"
+      },
+      {
+        "RouteID": 14,
+        "RouteName": "Chennai to Madurai",
+        "StartLocation": "Chennai",
+        "EndLocation": "Madurai",
+        "StopLocations": [
+          "Chennai Stop1",
+          "Trichy Stop1",
+          "Dindigul Stop1",
+          "Madurai Stop1"
+        ],
+        "Schedule": "08:00 AM - 08:00 PM",
+        "BusOperator": "TNSTC"
+      },
+      {
+        "RouteID": 15,
+        "RouteName": "Hyderabad to Tirupati",
+        "StartLocation": "Hyderabad",
+        "EndLocation": "Tirupati",
+        "StopLocations": [
+          "Hyderabad Stop1",
+          "Nalgonda Stop1",
+          "Chennai Stop1",
+          "Tirupati Stop1"
+        ],
+        "Schedule": "06:00 AM - 09:00 PM",
+        "BusOperator": "APTS"
+      },
+      {
+        "RouteID": 16,
+        "RouteName": "Ahmedabad to Udaipur",
+        "StartLocation": "Ahmedabad",
+        "EndLocation": "Udaipur",
+        "StopLocations": [
+          "Ahmedabad Stop1",
+          "Gandhinagar Stop1",
+          "Ratanpur Stop1",
+          "Udaipur Stop1"
+        ],
+        "Schedule": "07:00 AM - 08:00 PM",
+        "BusOperator": "GSRTC"
+      },
+      {
+        "RouteID": 17,
+        "RouteName": "Bangalore to Mangalore",
+        "StartLocation": "Bangalore",
+        "EndLocation": "Mangalore",
+        "StopLocations": [
+          "Bangalore Stop1",
+          "Tumkur Stop1",
+          "Hassan Stop1",
+          "Mangalore Stop1"
+        ],
+        "Schedule": "07:00 AM - 10:00 PM",
+        "BusOperator": "KSRTC"
+      },
+      {
+        "RouteID": 18,
+        "RouteName": "Chandigarh to Amritsar",
+        "StartLocation": "Chandigarh",
+        "EndLocation": "Amritsar",
+        "StopLocations": [
+          "Chandigarh Stop1",
+          "Ludhiana Stop1",
+          "Jalandhar Stop1",
+          "Amritsar Stop1"
+        ],
+        "Schedule": "06:00 AM - 08:00 PM",
+        "BusOperator": "PUNBUS"
+      },
+      {
+        "RouteID": 19,
+        "RouteName": "Thiruvananthapuram to Kozhikode",
+        "StartLocation": "Thiruvananthapuram",
+        "EndLocation": "Kozhikode",
+        "StopLocations": [
+          "Thiruvananthapuram Stop1",
+          "Kollam Stop1",
+          "Kayamkulam Stop1",
+          "Kozhikode Stop1"
+        ],
+        "Schedule": "08:00 AM - 10:00 PM",
+        "BusOperator": "KSRTC"
+      },
+      {
+        "RouteID": 20,
+        "RouteName": "Jaipur to Jodhpur",
+        "StartLocation": "Jaipur",
+        "EndLocation": "Jodhpur",
+        "StopLocations": [
+          "Jaipur Stop1",
+          "Ajmer Stop1",
+          "Pali Stop1",
+          "Jodhpur Stop1"
+        ],
+        "Schedule": "07:00 AM - 08:00 PM",
+        "BusOperator": "RSRTC"
+      },
+      {
+        "RouteID": 21,
+        "RouteName": "Mumbai to Goa",
+        "StartLocation": "Mumbai",
+        "EndLocation": "Goa",
+        "StopLocations": [
+          "Mumbai Stop1",
+          "Thane Stop1",
+          "Ratnagiri Stop1",
+          "Goa Stop1"
+        ],
+        "Schedule": "08:00 AM - 09:00 PM",
+        "BusOperator": "VRL Logistics"
+      },
+      {
+        "RouteID": 22,
+        "RouteName": "Delhi to Chandigarh",
+        "StartLocation": "Delhi",
+        "EndLocation": "Chandigarh",
+        "StopLocations": [
+          "Delhi Stop1",
+          "Sonipat Stop1",
+          "Panipat Stop1",
+          "Chandigarh Stop1"
+        ],
+        "Schedule": "07:00 AM - 10:00 PM",
+        "BusOperator": "Haryana Roadways"
+      },
+      {
+        "RouteID": 23,
+        "RouteName": "Bangalore to Coorg",
+        "StartLocation": "Bangalore",
+        "EndLocation": "Coorg",
+        "StopLocations": [
+          "Bangalore Stop1",
+          "Raja Seat Stop1",
+          "Madikeri Stop1",
+          "Coorg Stop1"
+        ],
+        "Schedule": "06:30 AM - 08:00 PM",
+        "BusOperator": "KSRTC"
+      },
+      {
+        "RouteID": 24,
+        "RouteName": "Hyderabad to Bengaluru",
+        "StartLocation": "Hyderabad",
+        "EndLocation": "Bengaluru",
+        "StopLocations": [
+          "Hyderabad Stop1",
+          "Kurnool Stop1",
+          "Anantapur Stop1",
+          "Bengaluru Stop1"
+        ],
+        "Schedule": "05:00 AM - 11:00 PM",
+        "BusOperator": "VRL Logistics"
+      },
+      {
+        "RouteID": 25,
+        "RouteName": "Kolkata to Patna",
+        "StartLocation": "Kolkata",
+        "EndLocation": "Patna",
+        "StopLocations": [
+          "Kolkata Stop1",
+          "Bardhaman Stop1",
+          "Durgapur Stop1",
+          "Patna Stop1"
+        ],
+        "Schedule": "06:00 AM - 09:00 PM",
+        "BusOperator": "Bihar State Tourism Development Corporation"
+      },
+      {
+        "RouteID": 26,
+        "RouteName": "Chennai to Trichy",
+        "StartLocation": "Chennai",
+        "EndLocation": "Trichy",
+        "StopLocations": [
+          "Chennai Stop1",
+          "Sriperumbudur Stop1",
+          "Perambalur Stop1",
+          "Trichy Stop1"
+        ],
+        "Schedule": "07:00 AM - 08:00 PM",
+        "BusOperator": "TNSTC"
+      },
+      {
+        "RouteID": 27,
+        "RouteName": "Ahmedabad to Rajkot",
+        "StartLocation": "Ahmedabad",
+        "EndLocation": "Rajkot",
+        "StopLocations": [
+          "Ahmedabad Stop1",
+          "Gandhinagar Stop1",
+          "Surendranagar Stop1",
+          "Rajkot Stop1"
+        ],
+        "Schedule": "08:00 AM - 09:00 PM",
+        "BusOperator": "GSRTC"
+      },
+      {
+        "RouteID": 28,
+        "RouteName": "Jaipur to Bikaner",
+        "StartLocation": "Jaipur",
+        "EndLocation": "Bikaner",
+        "StopLocations": [
+          "Jaipur Stop1",
+          "Sikar Stop1",
+          "Ratangarh Stop1",
+          "Bikaner Stop1"
+        ],
+        "Schedule": "06:30 AM - 08:00 PM",
+        "BusOperator": "RSRTC"
+      },
+      {
+        "RouteID": 29,
+        "RouteName": "Pune to Kolhapur",
+        "StartLocation": "Pune",
+        "EndLocation": "Kolhapur",
+        "StopLocations": [
+          "Pune Stop1",
+          "Satara Stop1",
+          "Karad Stop1",
+          "Kolhapur Stop1"
+        ],
+        "Schedule": "07:00 AM - 09:00 PM",
+        "BusOperator": "MSRTC"
+      },
+      {
+        "RouteID": 30,
+        "RouteName": "Thiruvananthapuram to Ernakulam",
+        "StartLocation": "Thiruvananthapuram",
+        "EndLocation": "Ernakulam",
+        "StopLocations": [
+          "Thiruvananthapuram Stop1",
+          "Kottayam Stop1",
+          "Alappuzha Stop1",
+          "Ernakulam Stop1"
+        ],
+        "Schedule": "07:00 AM - 09:00 PM",
+        "BusOperator": "KSRTC"
+      },
+      {
+        "RouteID": 31,
+        "RouteName": "Delhi to Dehradun",
+        "StartLocation": "Delhi",
+        "EndLocation": "Dehradun",
+        "StopLocations": [
+          "Delhi Stop1",
+          "Meerut Stop1",
+          "Muzaffarnagar Stop1",
+          "Dehradun Stop1"
+        ],
+        "Schedule": "07:00 AM - 08:00 PM",
+        "BusOperator": "Uttarakhand Transport Corporation"
+      },
+      {
+        "RouteID": 32,
+        "RouteName": "Mumbai to Surat",
+        "StartLocation": "Mumbai",
+        "EndLocation": "Surat",
+        "StopLocations": [
+          "Mumbai Stop1",
+          "Vapi Stop1",
+          "Valsad Stop1",
+          "Surat Stop1"
+        ],
+        "Schedule": "06:00 AM - 10:00 PM",
+        "BusOperator": "GSRTC"
+      },
+      {
+        "RouteID": 33,
+        "RouteName": "Bangalore to Hubli",
+        "StartLocation": "Bangalore",
+        "EndLocation": "Hubli",
+        "StopLocations": [
+          "Bangalore Stop1",
+          "Tumkur Stop1",
+          "Davangere Stop1",
+          "Hubli Stop1"
+        ],
+        "Schedule": "08:00 AM - 09:00 PM",
+        "BusOperator": "KSRTC"
+      },
+      {
+        "RouteID": 34,
+        "RouteName": "Hyderabad to Warangal",
+        "StartLocation": "Hyderabad",
+        "EndLocation": "Warangal",
+        "StopLocations": [
+          "Hyderabad Stop1",
+          "Jangaon Stop1",
+          "Warangal Stop1"
+        ],
+        "Schedule": "06:30 AM - 08:00 PM",
+        "BusOperator": "TSRTC"
+      },
+      {
+        "RouteID": 35,
+        "RouteName": "Kolkata to Guwahati",
+        "StartLocation": "Kolkata",
+        "EndLocation": "Guwahati",
+        "StopLocations": [
+          "Kolkata Stop1",
+          "Silchar Stop1",
+          "Karimganj Stop1",
+          "Guwahati Stop1"
+        ],
+        "Schedule": "05:00 AM - 10:00 PM",
+        "BusOperator": "Assam State Transport Corporation"
+      },
+      {
+        "RouteID": 36,
+        "RouteName": "Chennai to Salem",
+        "StartLocation": "Chennai",
+        "EndLocation": "Salem",
+        "StopLocations": [
+          "Chennai Stop1",
+          "Tambaram Stop1",
+          "Villupuram Stop1",
+          "Salem Stop1"
+        ],
+        "Schedule": "07:00 AM - 09:00 PM",
+        "BusOperator": "TNSTC"
+      },
+      {
+        "RouteID": 37,
+        "RouteName": "Ahmedabad to Bhuj",
+        "StartLocation": "Ahmedabad",
+        "EndLocation": "Bhuj",
+        "StopLocations": [
+          "Ahmedabad Stop1",
+          "Gandhinagar Stop1",
+          "Rajkot Stop1",
+          "Bhuj Stop1"
+        ],
+        "Schedule": "08:00 AM - 09:00 PM",
+        "BusOperator": "GSRTC"
+      },
+      {
+        "RouteID": 38,
+        "RouteName": "Jaipur to Alwar",
+        "StartLocation": "Jaipur",
+        "EndLocation": "Alwar",
+        "StopLocations": [
+          "Jaipur Stop1",
+          "Dausa Stop1",
+          "Aligarh Stop1",
+          "Alwar Stop1"
+        ],
+        "Schedule": "06:30 AM - 08:00 PM",
+        "BusOperator": "RSRTC"
+      },
+      {
+        "RouteID": 39,
+        "RouteName": "Pune to Nashik",
+        "StartLocation": "Pune",
+        "EndLocation": "Nashik",
+        "StopLocations": [
+          "Pune Stop1",
+          "Nashik Stop1"
+        ],
+        "Schedule": "06:00 AM - 09:00 PM",
+        "BusOperator": "MSRTC"
+      },
+      {
+        "RouteID": 40,
+        "RouteName": "Thiruvananthapuram to Kannur",
+        "StartLocation": "Thiruvananthapuram",
+        "EndLocation": "Kannur",
+        "StopLocations": [
+          "Thiruvananthapuram Stop1",
+          "Kollam Stop1",
+          "Kottayam Stop1",
+          "Kannur Stop1"
+        ],
+        "Schedule": "07:00 AM - 09:00 PM",
+        "BusOperator": "KSRTC"
+      }
+  ]
+  

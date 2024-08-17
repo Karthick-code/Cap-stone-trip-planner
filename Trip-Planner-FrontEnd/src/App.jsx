@@ -11,10 +11,20 @@ import Addtravel from './components/travelplan/Addtravel'
 import Travelplan from './components/travelplan/Travelplan'
 import Todo from './components/todo/Todo'
 import Addtodo from './components/todo/Addtodo'
+import Edittodo from './components/todo/Edittodo'
+import Adddestination from './components/AddDestination'
+import Travelbook from './components/travelbooking/Travelbook'
+import Accomodation from './components/travelbooking/accomodation/Accomodation'
+import Expenselimit from './components/user/Expenselimit'
+import Flight from './components/travelbooking/transport/flight/Flight'
+import Train from './components/travelbooking/transport/train/Train'
+import Bus from './components/travelbooking/transport/bus/Bus'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
+    <div className="App">
     <AuthProvider>
     <BrowserRouter>
         <Layout>
@@ -28,11 +38,21 @@ function App() {
             <Route path="/addtravel" element={<Addtravel />}></Route>
             <Route path="/todo" element={<Todo/>}></Route>
             <Route path="/addtodo" element={<Addtodo/>}></Route>
-            <Route></Route>
+            <Route path="/edittodo/:id" element={<Edittodo/>}></Route>
+            <Route path="/adddestination" element={<Adddestination />}></Route>
+            <Route path="/travelbooking" element={<Travelbook />}></Route>
+            <Route path="/accomodation" element={<Accomodation />}></Route>
+            <Route path="/expenselimit" element={<Expenselimit />}></Route>
+            <Route path="/travel/flight" element={<Flight />}></Route>
+            <Route path="/travel/train" element={<Train />}></Route>
+            <Route path="/travel/bus" element={<Bus />}></Route>
           </Routes>
         </Layout>
     </BrowserRouter>
     </AuthProvider>
+    {/* <Footer/> */}
+    </div>
+    
   )
 }
 

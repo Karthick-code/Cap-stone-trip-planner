@@ -9,12 +9,14 @@ router.get("/", async (req, res) => {
 
 // Add a new Destination
 router.post("/", async (req, res) => {
-  const { name, description, images, location } = req.body;
+  const { title, description, images, location,reference,rating } = req.body;
   const destination = new Destination({
-    name,
+    title,
     description,
     images,
     location,
+    reference,
+    rating
   });
   await destination.save();
   res.send(destination);

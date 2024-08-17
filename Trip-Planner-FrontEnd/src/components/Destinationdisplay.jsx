@@ -14,7 +14,7 @@ function Destinationdisplay({data}) {
     <Button onClick={()=>{
       var a=data.title.toLowerCase().replace(/\s/g,'').split(',');
       //console.log(a[0])
-      user?(()=>{return(<><Addtravel destination={`${a[0]}`}/>
+      user?(()=>{return(<>
         {window.location.href=`/addtravel`}</>
       )}):window.location.href="/login"
       // user?window.location.href=`/addtravel/${a[0]}}`:window.location.href="/login"
@@ -34,7 +34,7 @@ function Destinationdisplay({data}) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Learn More</Button>
+        <a href={data.reference} target="_blank"><Button size="small" >Learn More</Button></a>
       </CardActions>
     </Card>
     </Button>

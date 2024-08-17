@@ -20,6 +20,10 @@ function Addtravel(props) {
   const { user } = useContext(AuthContext);
   //handling submit
   console.log(user._id)
+  const handleClose = () => {
+    setOpen(false);
+    navigate("/travelplan");
+  };
   const handleSubmit = (values) => {
     // event.preventDefault();
     const formdata = {
@@ -215,6 +219,7 @@ function Addtravel(props) {
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
             />
+            <Button type="button" variant="outlined" color="secondary" fullWidth onClick={handleClose}>Cancel</Button>
             <Button type="submit" variant="contained" color="primary" fullWidth>
               Add Travel Plan
             </Button>

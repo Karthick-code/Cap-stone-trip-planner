@@ -19,14 +19,26 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import AssignmentIndIcon from "@mui/icons-material/AssignmentInd";
-import TravelExploreIcon from "@mui/icons-material/TravelExplore";
-import PlaylistAddCheckIcon from "@mui/icons-material/PlaylistAddCheck";
+import {AssignmentIndIcon} from "@mui/icons-material/AssignmentInd";
+import {TravelExploreIcon} from "@mui/icons-material/TravelExplore";
+import {PlaylistAddCheckIcon} from "@mui/icons-material/PlaylistAddCheck";
+import {AddIcon} from "@mui/icons-material/Add";
+import {ModeOfTravelIcon} from "@mui/icons-material/ModeOfTravel";
+import {HotelIcon} from "@mui/icons-material/Hotel";
 import AuthContext from "../context/AuthContext";
 import { useContext } from "react";
 import { Navigate } from "react-router-dom";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 // import  Profile from "./Profile";
+
+const icon_mapping={
+  AssignmentIndIcon:AssignmentIndIcon,
+  TravelExploreIcon:TravelExploreIcon,
+  PlaylistAddCheckIcon: PlaylistAddCheckIcon,
+  AddIcon: AddIcon,
+  ModeOfTravelIcon: ModeOfTravelIcon,
+  HotelIcon: HotelIcon,
+}
 
 const drawerWidth = 240;
 
@@ -110,7 +122,7 @@ export default function PersistentDrawerLeft() {
           </Typography>
           {user ? (
             <>
-              {/* <Profile /> */}
+              
 
               <Button color="inherit" onClick={logout}>
                 Logout
@@ -179,8 +191,11 @@ export default function PersistentDrawerLeft() {
                 Destinations
               </Button>
               <Divider />
-              {dashboard.map((ele, index) => (
-                <Button
+              {dashboard.map((ele, index) => {
+                const IconComponent = icon_mapping[ele.icon];
+                console.log(IconComponent);
+                return(
+                  <Button
                   component={Link}
                   to={`/${ele.name.toLowerCase().replace(/\s/g, "")}`}
                   key={index}
@@ -188,13 +203,14 @@ export default function PersistentDrawerLeft() {
                   <ListItem key={ele.name} disablePadding>
                     <ListItemButton>
                       <ListItemIcon>
-                        {/* <Icon.+{ele.icon}></Icon.+{ele.icon}> */}
+                        {/* <IconComponent/>// */}
                       </ListItemIcon>
                       <ListItemText primary={ele.name} />
                     </ListItemButton>
                   </ListItem>
                 </Button>
-              ))}
+                )
+              })}
             </>
           ) : (
             <>

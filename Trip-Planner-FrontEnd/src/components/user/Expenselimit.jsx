@@ -9,27 +9,26 @@ import {
 } from "@mui/material";
 import AuthContext from "../../context/AuthContext";
 import http from "../../../utils/http";
-import { useNavigate } from "react-router-dom";
-function Addtodo() {
+import { useNavigate } from "react-router-dom"
+
+function Expenselimit() {
   const navigate = useNavigate();
   const { user } = useContext(AuthContext);
-  const [title, setTitle] = React.useState("");
-  const [description, setDescription] = React.useState("");
+  const [limit, setLimit] = React.useState(0);
   const [open, setOpen] = React.useState(true);
-  const [todo, setTodo] = React.useState({});
 
   const handleSubmit = () => {
-    const todo = {
-      title,
-      description,
-    };
-    setTodo(todo);
-    console.log(todo);
-    http.post(`/todo/${user._id}`,todo).then((res) => {
+    const data={
+        name:user.name,
+        email:user.email,
+        expense:limit
+    }
+    console.log(data);
+    http.put(`/user/${user._id}`,data).then((res) => {
       console.log(res.data);
-      console.log("sucessfully added");
+      console.log("sucessfully updated");
     });
-    navigate("/todo");
+    navigate("/user");
   };
 
   return (
@@ -41,40 +40,29 @@ function Addtodo() {
         }}
       >
         <form>
-          <DialogTitle>Add Todo</DialogTitle>
+          <DialogTitle>Add Expense limit</DialogTitle>
           <DialogContent>
             <TextField
               autoFocus
               margin="dense"
               id="name"
-              label="Title"
+              label="limit"
               type="text"
               fullWidth
               variant="standard"
-              value={title}
+              value={limit}
               onChange={(e) => {
-                setTitle(e.target.value);
+                setLimit(e.target.value);
               }}
             />
-            <TextField
-              margin="dense"
-              id="name"
-              label="Description"
-              type="text"
-              fullWidth
-              variant="standard"
-              value={description}
-              onChange={(e) => {
-                setDescription(e.target.value);
-              }}
-            />
+            
           </DialogContent>
         </form>
         <DialogActions>
           <Button
             onClick={() => {
               setOpen(false);
-              navigate("/todo");
+              navigate("/user");
             }}
           >
             Cancel
@@ -85,7 +73,7 @@ function Addtodo() {
               handleSubmit();
             }}
           >
-            Add
+            Add limit
           </Button>
         </DialogActions>
       </Dialog>
@@ -93,4 +81,4 @@ function Addtodo() {
   );
 }
 
-export default Addtodo;
+export default Expenselimit;

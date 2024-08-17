@@ -1,52 +1,18 @@
-const mongoose = require("mongoose");
-const User = require("./User");
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-const travelPlanSchema = new mongoose.Schema; ({
-    user: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "User",
-        required: true,
-    },
-    title: {
-        type: String,
-        required: true,
-    },
-    description: {
-        type: String,
-        required: true,
-    },
-    startdate:{
-        type:String,
-        required:true,
-    },
-    enddate:{
-        type:String,
-        required:true,
-    },
-    destination:{
-        type:String,
-        required:true,
-    },
-    budget:{
-        type:String,
-        required:true,
-    },
-    activities:{
-        type:String,
-        required:true,
-    },
-    accomodation:{
-        type:String,
-        required:true,
-    },
-    transportation:{
-        type:String,
-        required:true,
-    },
-    notes:{
-        type:String,
-        required:true,
-    },
-
+const travelPlanSchema = new Schema({
+    user: { type: Schema.Types.ObjectId, ref: 'User', required: true },
+    title: { type: String, required: true },
+    description: { type: String },
+    startdate: { type: Date },
+    enddate: { type: Date },
+    destination: { type: String },
+    budget: { type: Number },
+    activities: { type: [String] },
+    accomodation: { type: String },
+    transportation: { type: String },
+    notes: { type: String }
 });
-module.exports = mongoose.model("TravelPlan", travelPlanSchema);
+
+module.exports = mongoose.model('TravelPlan', travelPlanSchema);

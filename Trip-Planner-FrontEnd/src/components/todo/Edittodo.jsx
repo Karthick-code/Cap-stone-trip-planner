@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import {
   Button,
   TextField,
@@ -7,27 +7,36 @@ import {
   DialogContent,
   DialogActions,
 } from "@mui/material";
-import AuthContext from "../../context/AuthContext";
 import http from "../../../utils/http";
-import { useNavigate } from "react-router-dom";
-function Addtodo() {
-  const navigate = useNavigate();
-  const { user } = useContext(AuthContext);
-  const [title, setTitle] = React.useState("");
-  const [description, setDescription] = React.useState("");
-  const [open, setOpen] = React.useState(true);
-  const [todo, setTodo] = React.useState({});
+import { useNavigate, useParams } from "react-router-dom";
 
+function Edittodo() {
+  const navigate = useNavigate();
+  const [title, setTitle] = React.useState();
+  const [description, setDescription] = React.useState();
+  const [open, setOpen] = React.useState(true);
+  const [updatedtodo, setUpdatedTodo] = React.useState({});
+  const { id } = useParams();
+
+  useEffect(() => {
+    //const todoId = window.location.pathname.split("/")[3];
+    
+    http.get(`/todo/edit/${id}`).then((res) => {
+      console.log(res.data);
+      setTitle(res.data.title);
+      setDescription(res.data.description);
+    });
+  }, []);
   const handleSubmit = () => {
-    const todo = {
+    const newtodo = {
       title,
       description,
     };
-    setTodo(todo);
-    console.log(todo);
-    http.post(`/todo/${user._id}`,todo).then((res) => {
+    setUpdatedTodo(newtodo);
+    console.log(newtodo);
+    http.put(`/todo/${id}`,newtodo).then((res) => {
       console.log(res.data);
-      console.log("sucessfully added");
+      console.log("sucessfully Updated");
     });
     navigate("/todo");
   };
@@ -41,7 +50,7 @@ function Addtodo() {
         }}
       >
         <form>
-          <DialogTitle>Add Todo</DialogTitle>
+          <DialogTitle>Edit Todo</DialogTitle>
           <DialogContent>
             <TextField
               autoFocus
@@ -85,7 +94,7 @@ function Addtodo() {
               handleSubmit();
             }}
           >
-            Add
+            Update
           </Button>
         </DialogActions>
       </Dialog>
@@ -93,4 +102,4 @@ function Addtodo() {
   );
 }
 
-export default Addtodo;
+export default Edittodo;

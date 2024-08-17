@@ -1,10 +1,28 @@
 import { Card, CardContent, Typography,Button } from "@mui/material";
 import React from "react";
-import { Link } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
+import http from "../../../utils/http";
 
 function Todocard({todo}) {
-    const handlesubmit=()=>{
-        console.log(todo._id)
+    const navigate = useNavigate();
+    
+    const handledelete=()=>{
+        try{
+            console.log(todo._id)
+        http.delete(`/todo/${todo._id}`).then((res)=>{
+            console.log(res.data);
+            console.log("sucessfully deleted");
+        })
+        }
+        catch(err){
+            console.log(err)
+        }
+    }
+    const handleedit=()=>{
+        console.log(todo._id);
+        console.log("edit")
+        navigate(`/edittodo/${todo._id}`);
+        
     }
   return (
     <>
@@ -15,8 +33,8 @@ function Todocard({todo}) {
                 <Typography ><b>Title:</b> {todo.title}</Typography>
                 <Typography ><b>Description:</b> {todo.description}</Typography>
                 <div className="button">
-                    <Button variant="outlined" component={Link} to={"/addtodo"}>Edit</Button>
-                    <Button variant="outlined" onClick={handlesubmit}>Delete</Button>
+                    <Button variant="outlined" onClick={handleedit}>Edit</Button>
+                    <Button variant="outlined" onClick={handledelete}>Delete</Button>
                 </div>
             </CardContent>
         </Card>

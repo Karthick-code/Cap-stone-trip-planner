@@ -24,43 +24,50 @@
         "title": "Jaipur, Rajasthan",
         "description": "Jaipur, the capital of Rajasthan, is known as the 'Pink City' due to its distinct pink-hued buildings. Highlights include the Amber Fort, Hawa Mahal (Palace of Winds), and the City Palace. Jaipur’s bustling bazaars offer a variety of traditional Rajasthani crafts and cuisine.",
         "location": "Northern part of Rajasthan, northwestern region of India",
-        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/20191219_Fort_Amber%2C_Amer%2C_Jaipur_0955_9481.jpg/375px-20191219_Fort_Amber%2C_Amer%2C_Jaipur_0955_9481.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/375px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg"]
+        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/20191219_Fort_Amber%2C_Amer%2C_Jaipur_0955_9481.jpg/375px-20191219_Fort_Amber%2C_Amer%2C_Jaipur_0955_9481.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/375px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg"],
+        "reference":"https://maps.app.goo.gl/CXy4t4qPRRJKcxur5"
     },
     {
         "title": "Goa",
         "description": "Goa is renowned for its beautiful beaches, vibrant nightlife, and Portuguese heritage. Popular beaches include Baga, Anjuna, and Palolem. The region also features colonial architecture, such as the Basilica of Bom Jesus, and a range of activities from water sports to beach parties.",
         "location": "Western coast of India, bordered by Maharashtra and Karnataka",
-        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Baga_Beach-India_Goa-Andres_Larin.jpg/330px-Baga_Beach-India_Goa-Andres_Larin.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Old_Goa%2C_Se_Cathedral%2C_Panoramic_view.jpg/1200px-Old_Goa%2C_Se_Cathedral%2C_Panoramic_view.jpg"]
+        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Baga_Beach-India_Goa-Andres_Larin.jpg/330px-Baga_Beach-India_Goa-Andres_Larin.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Old_Goa%2C_Se_Cathedral%2C_Panoramic_view.jpg/1200px-Old_Goa%2C_Se_Cathedral%2C_Panoramic_view.jpg"],
+        "reference":"https://maps.app.goo.gl/QMz7zrekuHxRyf6p9"
     },
     {
         "title": "Agra, Uttar Pradesh",
         "description": "Agra is home to the iconic Taj Mahal, one of the Seven Wonders of the World. This stunning white marble mausoleum was built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal. Agra also features the Agra Fort and the tomb of Itimad-ud-Daulah.",
         "location": "Northern state of Uttar Pradesh, near the banks of the Yamuna River",
-        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/375px-Taj_Mahal_%28Edited%29.jpeg","https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Agra_03-2016_10_Agra_Fort.jpg/450px-Agra_03-2016_10_Agra_Fort.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/I%27tim%C4%81d-ud-Daulah%2C_Agra.jpg/360px-I%27tim%C4%81d-ud-Daulah%2C_Agra.jpg"]
+        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/375px-Taj_Mahal_%28Edited%29.jpeg","https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Agra_03-2016_10_Agra_Fort.jpg/450px-Agra_03-2016_10_Agra_Fort.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/I%27tim%C4%81d-ud-Daulah%2C_Agra.jpg/360px-I%27tim%C4%81d-ud-Daulah%2C_Agra.jpg"],
+        "reference":"https://maps.app.goo.gl/rBgdN9rSrwhJJfWf8"
     },
     {
         "title": "Mysore, Karnataka",
         "description": "Mysore is known for its royal heritage and the magnificent Mysore Palace, which is a major attraction during the Dussehra festival. The city also offers beautiful gardens like Brindavan Gardens and the Chamundi Hill Temple, which provides panoramic views of Mysore.",
         "location": "Southern part of Karnataka, southwestern region of India",
-        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mysore_Palace_Morning.jpg/375px-Mysore_Palace_Morning.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Brindavan_Gardens.JPG/375px-Brindavan_Gardens.JPG","https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/VIEW_OF_MYSURU_FROM_CHAMUNDI_HILLS.jpg/330px-VIEW_OF_MYSURU_FROM_CHAMUNDI_HILLS.jpg"]
+        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mysore_Palace_Morning.jpg/375px-Mysore_Palace_Morning.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Brindavan_Gardens.JPG/375px-Brindavan_Gardens.JPG","https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/VIEW_OF_MYSURU_FROM_CHAMUNDI_HILLS.jpg/330px-VIEW_OF_MYSURU_FROM_CHAMUNDI_HILLS.jpg"],
+        "reference":"https://maps.app.goo.gl/5huGF8Xqbp6HSKVg7"
     },
     {
         "title": "Varanasi, Uttar Pradesh",
         "description": "Varanasi, one of the oldest continuously inhabited cities in the world, is a major spiritual center in India. It's famous for its ghats on the Ganges River, where pilgrims perform rituals and ceremonies. Key sites include the Kashi Vishwanath Temple and the vibrant local markets.",
         "location": "Northern state of Uttar Pradesh, on the banks of the Ganges River",
-        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg/276px-Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Kashi_Vishwanath.jpg/330px-Kashi_Vishwanath.jpg"]
+        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg/276px-Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Kashi_Vishwanath.jpg/330px-Kashi_Vishwanath.jpg"],
+        "reference":"https://maps.app.goo.gl/HZgxpoWs7UBn6XGz7"
     },
     {
         "title": "Darjeeling, West Bengal",
         "description": "Darjeeling is a hill station in the Indian state of West Bengal, known for its tea plantations and stunning views of the Himalayas. The Darjeeling Himalayan Railway, a UNESCO World Heritage Site, offers a scenic ride through the hills. The Tiger Hill viewpoint provides a spectacular sunrise over Mount Kanchenjunga.",
         "location": "Northern part of West Bengal, in the eastern Himalayas",
-        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Tea_plantation_Darjeeling.JPG/201px-Tea_plantation_Darjeeling.JPG","https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Tiger_Hill_Darjeeling_West_Bengal_India_%283%29.JPG/408px-Tiger_Hill_Darjeeling_West_Bengal_India_%283%29.JPG"]
+        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Tea_plantation_Darjeeling.JPG/201px-Tea_plantation_Darjeeling.JPG","https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Tiger_Hill_Darjeeling_West_Bengal_India_%283%29.JPG/408px-Tiger_Hill_Darjeeling_West_Bengal_India_%283%29.JPG"],
+        "reference":"https://maps.app.goo.gl/9N2xYkCcqDHMegSbA"
     },
     {
         "title": "Andaman and Nicobar Islands",
         "description": "This group of islands in the Bay of Bengal offers pristine beaches, clear turquoise waters, and vibrant coral reefs. Popular spots include Havelock Island with its Radhanagar Beach, Neil Island, and the historic Cellular Jail in Port Blair.",
         "location": "Bay of Bengal, southeast of mainland India",
         "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Havelock%2C_Andaman_%26_Nicobar_Islands.JPG/375px-Havelock%2C_Andaman_%26_Nicobar_Islands.JPG","https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Blue_Linckia_Starfish.JPG/375px-Blue_Linckia_Starfish.JPG"],
+        "reference":"https://maps.app.goo.gl/6kmpwwVCyKJvutxP7"
         
     },
     {
@@ -68,6 +75,7 @@
         "description": "Amritsar is home to the Golden Temple, the holiest site in Sikhism, known for its stunning gold-plated architecture and serene atmosphere. The city also offers the Jallianwala Bagh memorial, which commemorates the tragic massacre of 1919.",
         "location": "Northwestern state of Punjab, near the Pakistan border",
         "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/The_Golden_Temple_of_Amrithsar_7.jpg/330px-The_Golden_Temple_of_Amrithsar_7.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Jallianwala_Bagh%2C_Amritsar_01.jpg/375px-Jallianwala_Bagh%2C_Amritsar_01.jpg"],
+        "reference":"https://maps.app.goo.gl/VF36EUokLinc2LU48"
         
     },
     {
@@ -75,6 +83,7 @@
         "description": "Ranthambore is one of India's largest national parks and a prime spot for wildlife enthusiasts. It's famous for its population of Bengal tigers and offers excellent opportunities for wildlife safaris. The park also features historical ruins and the Ranthambore Fort.",
         "location": "Southeastern part of Rajasthan, near the town of Sawai Madhopur",
         "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ranthambore_National_Park.JPG/426px-Ranthambore_National_Park.JPG","https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Ranthambhore_Fort.jpg/375px-Ranthambhore_Fort.jpg"],
+        "reference":"https://maps.app.goo.gl/uzNsSRW4iq82TUwRA"
         
     },
     {
@@ -82,60 +91,69 @@
         "description": "Pondicherry is known for its French colonial architecture, serene beaches, and spiritual communities. The city features charming streets with French-style buildings, the Sri Aurobindo Ashram, and Promenade Beach. Its tranquil atmosphere and unique blend of Indian and French cultures make it a distinctive destination.",
         "location": "Southeastern coast of India, along the Bay of Bengal, surrounded by Tamil Nadu",
         "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Auroville_puducherry.jpg/330px-Auroville_puducherry.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Pondicherry-Rock_beach_aerial_view.jpg/330px-Pondicherry-Rock_beach_aerial_view.jpg"],
-        "reference":""
+        "reference":"https://maps.app.goo.gl/HF9JGfzuKsNpWzco9"
     },
     {
         "title": "Jaisalmer, Rajasthan",
         "description": "Jaisalmer, known as the 'Golden City,' is renowned for its yellow sandstone architecture and its majestic Jaisalmer Fort, which rises from the desert like a golden mirage. The city is also famous for its havelis (traditional mansions) and its proximity to the Thar Desert, where camel safaris are popular.",
         "location": "Western part of Rajasthan, near the border with Pakistan",
-        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Jaisalmer_forteresse.jpg/450px-Jaisalmer_forteresse.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Patwon_ki_haveli_18.jpg/300px-Patwon_ki_haveli_18.jpg"]
+        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Jaisalmer_forteresse.jpg/450px-Jaisalmer_forteresse.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Patwon_ki_haveli_18.jpg/300px-Patwon_ki_haveli_18.jpg"],
+        "reference":"https://maps.app.goo.gl/7zPHajAZ7ZVeJ66t8"
     },
     {
         "title": "Nainital, Uttarakhand",
         "description": "Nainital is a picturesque hill station centered around a serene lake. It's known for its pleasant weather, lush greenery, and colonial-era architecture. Key attractions include Naini Lake, Naina Devi Temple, and Snow View Point, which offers panoramic views of the surrounding Himalayas.",
         "location": "Northern state of Uttarakhand, in the Kumaon region of the Indian Himalayas",
-        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/The_Boat_and_The_Lake.jpg/396px-The_Boat_and_The_Lake.jpg","https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg"]
+        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/The_Boat_and_The_Lake.jpg/396px-The_Boat_and_The_Lake.jpg","https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg"],
+        "reference":"https://maps.app.goo.gl/cd2mJymYVaktmqo78"
     },
     {
         "title": "Jodhpur, Rajasthan",
         "description": "Jodhpur, the 'Blue City,' is known for its striking blue-painted houses and the imposing Mehrangarh Fort. The city also features the Umaid Bhawan Palace, a majestic residence turned luxury hotel, and the bustling Sardar Market, where you can find local crafts and spices.",
         "location": "Western part of Rajasthan",
-        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Jodhpur_mehrangarh_fort.jpg/375px-Jodhpur_mehrangarh_fort.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace_%282233393509%29.jpg/405px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace_%282233393509%29.jpg"]
+        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Jodhpur_mehrangarh_fort.jpg/375px-Jodhpur_mehrangarh_fort.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace_%282233393509%29.jpg/405px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace_%282233393509%29.jpg"],
+        "reference":"https://maps.app.goo.gl/Rr9AYXEYGyKM1gEE7"
     },
     {
         "title": "Munnar, Kerala",
         "description": "Munnar is a serene hill station known for its sprawling tea estates, lush green landscapes, and pleasant climate. Key attractions include the tea museums, Eravikulam National Park (home to the Nilgiri Tahr), and Anamudi Peak, the highest point in South India.",
         "location": "Western Ghats of Kerala, in the Idukki district",
-        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Tea_Estate_Munnar.jpg/1200px-Tea_Estate_Munnar.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Kurunji._..jpg/426px-Kurunji._..jpg"]
+        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Tea_Estate_Munnar.jpg/1200px-Tea_Estate_Munnar.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Kurunji._..jpg/426px-Kurunji._..jpg"],
+        "reference":"https://maps.app.goo.gl/XRTV4cJBh5PQ7D4KA"
     },
     {
         "title": "Shillong, Meghalaya",
         "description": "Shillong, often referred to as the 'Scotland of the East,' is a charming hill station known for its cool climate, picturesque landscapes, and vibrant culture. Attractions include Elephant Falls, Shillong Peak, and the local markets with unique Khasi and Jaintia handicrafts.",
         "location": "Northeastern state of Meghalaya",
-        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Elephant_Falls_Meghalaya.jpg/378px-Elephant_Falls_Meghalaya.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Shillong.jpg/183px-Shillong.jpg"]
+        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Elephant_Falls_Meghalaya.jpg/378px-Elephant_Falls_Meghalaya.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Shillong.jpg/183px-Shillong.jpg"],
+        "reference":"https://maps.app.goo.gl/3ktjvnwQ6JLq8YoV9"
     },
     {
         "title": "Hampi, Karnataka",
         "description": "Hampi is an ancient village with remarkable ruins from the Vijayanagara Empire. The site features impressive temples, palaces, and market streets, all set amidst a stunning landscape of boulder-strewn hills. Highlights include the Virupaksha Temple, Vittala Temple, and the Stone Chariot.",
         "location": "Northern part of Karnataka, near the Tungabhadra River",
-        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Khajuraho_-_Kandariya_Mahadeo_Temple.jpg/288px-Khajuraho_-_Kandariya_Mahadeo_Temple.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Hampi_virupaksha_temple.jpg/330px-Hampi_virupaksha_temple.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Balanced_Rock.jpg/330px-Balanced_Rock.jpg"]
+        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Khajuraho_-_Kandariya_Mahadeo_Temple.jpg/288px-Khajuraho_-_Kandariya_Mahadeo_Temple.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Hampi_virupaksha_temple.jpg/330px-Hampi_virupaksha_temple.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Balanced_Rock.jpg/330px-Balanced_Rock.jpg"],
+        "reference":"https://maps.app.goo.gl/sEVCbWFkk2sAv3578"
     },
     {
         "title": "Kumarakom, Kerala",
         "description": "Kumarakom is a beautiful backwater destination known for its tranquil lakes, houseboat cruises, and lush landscapes. It offers a peaceful retreat with opportunities to explore traditional village life and enjoy bird watching at the Kumarakom Bird Sanctuary.",
         "location": "Kottayam district of Kerala, near Vembanad Lake",
-        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Kerala_Kumarakom_Bird_Sanctuary.jpg/375px-Kerala_Kumarakom_Bird_Sanctuary.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Kumarakom.JPG/330px-Kumarakom.JPG"]
+        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Kerala_Kumarakom_Bird_Sanctuary.jpg/375px-Kerala_Kumarakom_Bird_Sanctuary.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Kumarakom.JPG/330px-Kumarakom.JPG"],
+        "reference":"https://maps.app.goo.gl/P8w8QCgAahdxf1w18"
     },
     {
         "title": "Mahabalipuram, Tamil Nadu",
         "description": "Mahabalipuram is known for its rock-cut temples and sculptures from the Pallava dynasty, including the Shore Temple and the Pancha Rathas. The town also has beautiful coastal views and sandy beaches.",
         "location": "Southeastern coast of Tamil Nadu, along the Bay of Bengal",
-        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg/330px-Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Five_Rathas_at_Mahaballipuram%2CTamil_Nadu.jpg/390px-Five_Rathas_at_Mahaballipuram%2CTamil_Nadu.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Mahabalipuram_pano2.jpg/2100px-Mahabalipuram_pano2.jpg"]
+        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg/330px-Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Five_Rathas_at_Mahaballipuram%2CTamil_Nadu.jpg/390px-Five_Rathas_at_Mahaballipuram%2CTamil_Nadu.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Mahabalipuram_pano2.jpg/2100px-Mahabalipuram_pano2.jpg"],
+        "reference":"https://maps.app.goo.gl/Qo8BjgFnC4xVHym87"
     },
     {
         "title": "Gokarna, Karnataka",
         "description": "Gokarna is a coastal town known for its laid-back atmosphere and pristine beaches. It's a popular destination for beachgoers and those seeking spiritual experiences, with key attractions including Om Beach and the Mahabaleshwar Temple.",
         "location": "Western coast of Karnataka, along the Arabian Sea",
-        "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJvtux9QG7zQpL2VDYPhs9v-4fozOftueYTQ&s","https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Main_entry_to_the_Mahabaleshwar_Temple_at_Gokaran.jpg/330px-Main_entry_to_the_Mahabaleshwar_Temple_at_Gokaran.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Delight_india.jpg/375px-Delight_india.jpg"]
+        "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJvtux9QG7zQpL2VDYPhs9v-4fozOftueYTQ&s","https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Main_entry_to_the_Mahabaleshwar_Temple_at_Gokaran.jpg/330px-Main_entry_to_the_Mahabaleshwar_Temple_at_Gokaran.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Delight_india.jpg/375px-Delight_india.jpg"],
+        "reference":"https://maps.app.goo.gl/9Yhs4Fw4FvstZRvDA"
     }
 ]
